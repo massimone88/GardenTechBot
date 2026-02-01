@@ -138,7 +138,6 @@ def update_readme(data):
 
 if __name__ == "__main__":
     new_links = get_telegram_updates()
-    new_links = ['https://share.google/Gmw6cXBCq6Ub7xTkb','https://github.com/EmulatorJS/EmulatorJS','https://vercel.com/blog/agents-md-outperforms-skills-in-our-agent-evals']
 
     if new_links:
         data = process_data(new_links)
