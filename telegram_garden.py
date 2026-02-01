@@ -75,9 +75,9 @@ def process_data(links):
 
 def get_summary(url, title):
     """Chiede a Gemini di riassumere il contenuto del link."""
-    for m in genai.list_models():
-        if 'generateContent' in m.supported_generation_methods:
-            print(m.name)
+    # for m in genai.list_models():
+    #     if 'generateContent' in m.supported_generation_methods:
+    #         print(m.name)
 
     try:
         prompt = f"Riassumi in una sola frase professionale in italiano il contenuto di questo link: {url}. Il titolo della pagina è {title}. Non essere logorroico. Minimo 100 caratteri. Sotto questa soglia, la preview sembra povera e non dà valore aggiunto al titolo. Massimo: 200-250 caratteri."
@@ -142,10 +142,10 @@ if __name__ == "__main__":
 
     if new_links:
         data = process_data(new_links)
-        update_readme(data)
+        res = update_readme(data)
         msg = create_eml_content(data)
         send_email(msg)
-    if update_readme(new_links):
+    if res:
         print("README aggiornato con nuovi link da Telegram!")
     else:
         print("Nessun nuovo link trovato.")
