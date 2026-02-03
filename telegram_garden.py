@@ -138,7 +138,7 @@ def update_readme(data):
 
 if __name__ == "__main__":
     new_links = get_telegram_updates()
-
+    res = False
     if new_links:
         data = process_data(new_links)
         res = update_readme(data)
