@@ -10,3 +10,6 @@
 * [GitHub - youware-labs/figma-pilot: MCP that let AI agents control Figma through code execution](https://github.com/youware-labs/figma-pilot)
 * [https://www.scworld.com/news/six-javascript-zero-day-bugs-lead-to-fears-of-supply-chain-attack](https://www.scworld.com/news/six-javascript-zero-day-bugs-lead-to-fears-of-supply-chain-attack)
 * [GitHub - kirencore/kiren](https://github.com/kirencore/kiren)
+
+### Risorse salvate il 09/02/2026
+* [https://matduggan.com/gitbutler-cli-is-really-good/](https://matduggan.com/gitbutler-cli-is-really-good/)
