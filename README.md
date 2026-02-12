@@ -13,3 +13,6 @@
 
 ### Risorse salvate il 09/02/2026
 * [https://matduggan.com/gitbutler-cli-is-really-good/](https://matduggan.com/gitbutler-cli-is-really-good/)
+
+### Risorse salvate il 12/02/2026
+* [GitHub - rednote-hilab/dots.ocr: Multilingual Document Layout Parsing in a Single Vision-Language Model](https://github.com/rednote-hilab/dots.ocr)
